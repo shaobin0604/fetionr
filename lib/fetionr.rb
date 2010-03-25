@@ -11,7 +11,7 @@
 # = Acknowledgment
 # thanks to cocobear's pyfetion lib
 # [http://cocobear.info/blog/2008/12/03/write-fetion-with-python-pyfetion/] 
-# and nathan's ananysis of fetion protocal
+# and nathan's ananysis of fetion protocol
 # [http://hi.baidu.com/nathan2007]
 #
 # == usage
