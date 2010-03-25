@@ -1,0 +1,31 @@
+== fetionr
+fetionr is a ruby command line client for China Mobile Fetion service
+
+== requirement
+gem install uuid
+
+== acknowledgment
+thanks to cocobear's pyfetion lib 
+[http://cocobear.info/blog/2008/12/03/write-fetion-with-python-pyfetion/] 
+and nathan's ananysis of fetion protocal
+[http://hi.baidu.com/nathan2007]
+
+== usage
+Usage: ruby fetionr.rb [options]
+
+Example: 
+
+ruby fetionr.rb -m mobile_no -p password -c sms_content
+ruby fetionr.rb -m mobile_no -p password -r receiver_mobile_no -c sms_content
+
+    -m, --mobile MOBILE              Fetion mobile number
+    -p, --password PASSWORD          Fetion password
+    -c, --content CONTENT            Fetion message content
+    -r, --receivers MOBILE           Receivers' Fetion mobile numbers, if no recievers, send sms to yourself
+
+different mode:
+        --debug                      debug mode
+        --silence                    silence mode
+
+Common options:
+    -h, --help                       Show this message
